@@ -9,7 +9,9 @@ src/
   ├── exercises/
   │   ├── basic-types/     # 基础类型练习
   │   ├── interfaces/      # 接口练习
-  │   └── generics/        # 泛型练习
+  │   ├── generics/        # 泛型练习
+  │   ├── advanced-types/  # 高级类型练习
+  │   └── utility-types/   # 实用工具类型练习
   └── index.ts             # 主入口文件
 ```
 
@@ -31,6 +33,21 @@ src/
 - 泛型函数
 - 泛型接口
 - 泛型类
+
+### 4. 高级类型 (Advanced Types)
+- 交叉类型 (Intersection Types)
+- 联合类型 (Union Types)
+- 类型守卫 (Type Guards)
+- 可为空类型 (Nullable Types)
+- 字面量类型 (Literal Types)
+
+### 5. 实用工具类型 (Utility Types)
+- Partial<T>
+- Readonly<T>
+- Record<K,T>
+- Pick<T,K>
+- Omit<T,K>
+- ReturnType<T>
 
 ## 如何使用
 
@@ -55,6 +72,12 @@ npm run exercise:interface
 
 # 运行泛型练习
 npm run exercise:generic
+
+# 运行高级类型练习
+npm run exercise:advanced
+
+# 运行实用工具类型练习
+npm run exercise:utility
 ```
 
 ## 开发模式

@@ -11,6 +11,8 @@
     "exercise:basic": "ts-node src/exercises/basic-types/index.ts",
     "exercise:interface": "ts-node src/exercises/interfaces/index.ts",
     "exercise:generic": "ts-node src/exercises/generics/index.ts",
+    "exercise:advanced": "ts-node src/exercises/advanced-types/index.ts",
+    "exercise:utility": "ts-node src/exercises/utility-types/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
