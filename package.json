@@ -1,0 +1,24 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "description": "TypeScript 项目",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsc -w",
+    "dev:ts": "ts-node src/index.ts",
+    "exercise:basic": "ts-node src/exercises/basic-types/index.ts",
+    "exercise:interface": "ts-node src/exercises/interfaces/index.ts",
+    "exercise:generic": "ts-node src/exercises/generics/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
